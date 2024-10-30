@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TDA | FN Members</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+
+        .topnav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #000000;
+            padding: 0 16px;
+        }
+
+        .topnav a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 22px;
+        }
+
+        .topnav a:hover {
+            background-color: #000000;
+            color: gray;
+        }
+
+        .topnav a.active {
+            background-color: #12961f;
+            color: white;
+        }
+
+        .logo-container {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            padding: 15px 25px;
+        }
+
+        .logo-container img {
+            height: 80px;
+            width: auto;
+            padding: 15px 25px;
+        }
+
+        .right-align {
+            display: flex;
+            align-items: center;
+            padding: 15px 25px;
+        }
+
+        .bottomnav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .bottomnav a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 22px;
+        }
+
+        .bottomnav a:hover {
+            color: gray;
+        }
+
+        .content {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .content img {
+            padding-top: 30px;
+        }
+
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .players-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .player-box {
+            width: 200px;
+            border: 2px solid #12961f;
+            border-radius: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+            text-decoration: none;
+            color: black;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .player-box:hover {
+            transform: scale(1.05);
+            background-color: #e8e8e8;
+        }
+
+        .player-skin {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-bottom: 2px solid #12961f;
+        }
+
+        .player-info {
+            padding: 15px;
+        }
+
+        .player-flag {
+            width: 25px;
+            height: 15px;
+            border: 1px solid #ddd;
+            margin-bottom: 8px;
+        }
+
+        .player-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        .player-role {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="Home.html">HOME</a>
+        <a href="About.html">ABOUT</a>
+        <a href="Shop.html">SHOP</a>
+        <a href="Member.html">MEMBER</a>
+        <div class="logo-container">
+            <img src="TDA_Logo.png" alt="TDA Logo">
+        </div>
+        <div class="right-align">
+            <a href="https://www.tiktok.com/@thedarkang3ls?lang=en">TIKTOK</a>
+            <a href="https://www.youtube.com/channel/UC8X_34vjGn3gV3PYq5DgHEQ">YOUTUBE</a>
+            <a href="https://x.com/TheDarkAng3ls">X</a>
+            <a href="https://discord.gg/UR7BjRGQMW">DISCORD</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <img src="FortniteLogo.png" width="280" height="78" alt="Fortnite Logo">
+        <h1 class="title">Pro Players</h1>
+
+        <!-- Players Container -->
+        <div class="players-container">
+            <!-- Player 1 Box -->
+            <a href="https://x.com/MeekoYh298" class="player-box">
+                <img src="Fishstick.png" alt="Player 1 Skin" class="player-skin">
+                <div class="player-info">
+                    <p>United Kingdom</p>
+                    <div class="player-name">Meekscifer</div>
+                    <div class="player-role">Fortnite Player</div>
+                </div>
+            </a>
+
+
+            <!-- Add more player boxes as needed -->
+        </div>
+		<h1 class="title">Main Players</h1>
+
+        <!-- Players Container -->
+        <div class="players-container">
+            <!-- Player 1 Box -->
+            <a href="https://x.com/rale_baa" class="player-box">
+                <img src="volx.png" alt="Player 1 Skin" class="player-skin">
+                <div class="player-info">
+                    <p>Serbia󠁧󠁢󠁥󠁮󠁧󠁿</p>
+                    <div class="player-name">volx 会赢</div>
+                    <div class="player-role">Fortnite Player</div>
+                </div>
+            </a>
+
+
+            <!-- Add more player boxes as needed -->
+        </div>
+		<br></br>
+		<br></br>
+    </div>
+
+    <div class="bottomnav">
+        <a href="https://www.tiktok.com/@thedarkang3ls?lang=en">TIKTOK</a>
+        <a href="https://www.youtube.com/channel/UC8X_34vjGn3gV3PYq5DgHEQ">YOUTUBE</a>
+        <a href="https://x.com/TheDarkAng3ls">X</a>
+        <a href="https://discord.gg/UR7BjRGQMW">DISCORD</a>
+    </div>
+</body>
+
+</html>
